@@ -1,0 +1,19 @@
+.grid-images{
+    height: 150px;
+    margin: 5%;
+}
+
+.grid-images img{
+    transform: scale(0.5);
+    zoom: 25%;
+    transition: 0.2s;
+    border: 8px solid rgb(209, 209, 209);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+}
+
+.grid-images img:hover{
+    zoom: 30%;
+    transition: 0.5s;
+    transform: scale(1.5);
+    margin: 0px 2%;
+}

@@ -1,0 +1,15 @@
+.videoMini03{
+    display: block;
+    position: absolute;
+    top: 85%;
+    right: 45%;
+    width: 25em;
+    border-radius: 10px;
+}
+
+.audioLovers{
+    display: block;
+    position: absolute;
+    right: 18%;
+    top: 146%;
+}

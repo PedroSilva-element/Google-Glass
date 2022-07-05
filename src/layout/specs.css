@@ -1,0 +1,16 @@
+.glassInfoBlock {
+    display: block;
+    float: left;
+}
+
+.infos {
+    width: 44.2%;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    float: right;
+}
+
+.dets{
+    margin-bottom: 800px;
+}

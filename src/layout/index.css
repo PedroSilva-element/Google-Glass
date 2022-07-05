@@ -1,0 +1,20 @@
+@import url('./section.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+@import url('./specs.css');
+@import url('./galeria.css');
+@import url('./multimidia.css');
+
+body {
+    background-color: #dddddd;
+    text-align: justify;
+}
+
+p {
+    text-indent: 50px;
+}
+
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+}

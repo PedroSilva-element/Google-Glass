@@ -1,0 +1,82 @@
+@font-face {
+    font-family: bubblegum;
+    src: url('../../public/fonts/bubblegum-sans-regular.otf');
+}
+
+@font-face {
+    font-family: TitilliumWeb;
+    src: url('../../public/fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+}
+
+.header {
+    margin: 0px;
+    height: 12em;
+    border-bottom: 1px solid black;
+    background-image: url('../img/glass-logo-peq.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 90%;
+}
+
+/*Menu Navegação*/
+.nav {
+    text-align: right;
+    margin: 0px;
+}
+
+.nav h1 {
+    display: none;
+}
+
+.ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.ul li {
+    display: inline-block;
+    margin: 4px;
+    padding: 10px;
+    color: rgb(32, 32, 32);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.ul li:hover{
+    transition: 0.5s;
+    background-color: #0000009d;
+    color: #fefefe;
+}
+/*Titulos*/
+.hgroup {
+    display: block;
+    margin: 10px 0px 0px;
+    width: 55%;
+    float: left;
+    color: #606060;
+}
+
+.hgroup h1 {
+    font-family: bubblegum;
+    font-size: 25pt;
+}
+
+.hgroup h2 {
+    font-family: TitilliumWeb;
+}
+
+.hgroup h1,
+h2 {
+    margin: 0px;
+}
+
+/*Imagem do cabeçalho*/
+.figure {
+    display: block;
+    margin: 0px;
+
+}
+
+.figure img {
+    display: block;
+    margin-top: 5% ;
+    float: right;
+}

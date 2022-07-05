@@ -1,0 +1,43 @@
+@font-face {
+    font-family: bubblegum;
+    src: url('../../public/fonts/bubblegum-sans-regular.otf');
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #fffafa;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+}
+
+.main{
+    display: block;
+    float: left;
+    width: 55%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.aside{
+    display: block;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    color: #606060;
+    background-color: #dddddd;
+}
+.aside h1{
+    font-family: bubblegum;
+    font-size: 20pt;
+}
+
+.aside h2, .aside h3{
+    background-color: #606060;
+    color: #F8F8FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 14pt;
+
+}
