@@ -1,16 +1,32 @@
-.glassInfoBlock {
+.glassInfoBlock{
     display: block;
     float: left;
+    margin: 0px;
 }
-
-.infos {
+.googleSpecs {
+    display: block;
+    float: right;
     width: 44.2%;
     height: 300px;
     overflow: auto;
-    display: block;
-    float: right;
+    margin: 0px;
 }
 
-.dets{
+.blocks{
     margin-bottom: 800px;
+}
+
+.blocks p{
+    text-indent: 30px;
+}
+
+.blocks hgroup {
+    text-indent: 0px;
+    text-align: left;
+}
+
+.img-dir{
+    display: block;
+    float: right;
+    margin-left: 5px;
 }
